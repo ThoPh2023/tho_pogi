@@ -6,11 +6,11 @@ NS2='ns-my2.vpnjantit.com'
 A2='my2.vpnjantit.com'
 NS3='dns.cas-2.optnl.com'
 A3='cas-2.optnl.com'
-NS4='ns-id3.slowdns.me'
-A4='id3.slowdns.me'
+NS4='team-mamawers.elcavlaw.com'
+A4='mamawers.elcavlaw.com'
 LOOP_DELAY=5
 
-declare -a HOSTS=('112.198.115.44' '112.198.115.36' )
+declare -a HOSTS=('124.6.1181.20' '112.198.115.36' )
 DIG_EXEC="DEFAULT"
 
 CUSTOM_DIG=/data/data/com.termux/files/home/go/bin/fastdig
