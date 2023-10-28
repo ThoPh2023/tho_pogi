@@ -1,16 +1,16 @@
-} NS='dns.uss-2.optnl.com'
-A='uss-2.optnl.com'
-NS1='dns.ids-2.optnl.com'
-A1='ids-2.optnl.com'
-NS2='ns-my2.vpnjantit.com'
-A2='my2.vpnjantit.com'
+NS='team-mamawers.elcavlaw.com'
+A='mamawers.elcavlaw.com'
+NS1='ns-id2.slowdns.me'
+A1='id2.slowdns.me'
+NS2='dns.uss-4.optnl.com'
+A2='uss-4.optnl.com'
 NS3='dns.cas-2.optnl.com'
 A3='cas-2.optnl.com'
-NS4='team-mamawers.elcavlaw.com'
-A4='mamawers.elcavlaw.com'
+NS4='ns-id3.slowdns.me'
+A4='id3.slowdns.me'
 LOOP_DELAY=5
 
-declare -a HOSTS=('124.6.181.20' '112.198.115.60' )
+declare -a HOSTS=('124.6.181.4' '124.6.181.12'')
 DIG_EXEC="DEFAULT"
 
 CUSTOM_DIG=/data/data/com.termux/files/home/go/bin/fastdig
